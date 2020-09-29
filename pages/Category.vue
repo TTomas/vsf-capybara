@@ -230,6 +230,9 @@ const composeInitialPageState = async (store, route, forceLoad = false) => {
     const cachedCategory = store.getters['category-next/getCategoryFrom'](
       route.path
     );
+    if (Object.keys(filters).length === 0) {
+      forceLoad = false
+    }
     const currentCategory =
       cachedCategory && !forceLoad
         ? cachedCategory

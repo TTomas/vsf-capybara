@@ -81,7 +81,7 @@ export default {
   },
   methods: {
     changeActivePage (title) {
-      if (title === 'Log out') {
+      if (title === this.$t('Log out')) {
         this.logout();
         return;
       }
