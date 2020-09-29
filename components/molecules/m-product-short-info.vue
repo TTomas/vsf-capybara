@@ -13,6 +13,10 @@
         class="product__drag-icon mobile-only"
       />
     </div>
+    <SfProperty
+      :name="$t('SKU')"
+      :value="product.sku"
+    />
     <div class="product__price-and-rating">
       <AProductPrice
         v-if="product.type_id !== 'grouped'"
@@ -34,15 +38,17 @@
 </template>
 
 <script>
-import { SfHeading, SfIcon, SfPrice, SfButton } from '@storefront-ui/vue';
+import { SfHeading, SfIcon, SfPrice, SfButton, SfProperty } from '@storefront-ui/vue';
 import AProductRating from 'theme/components/atoms/a-product-rating';
 import AProductPrice from 'theme/components/atoms/a-product-price';
+import { ProductAttribute } from '@vue-storefront/core/modules/catalog/components/ProductAttribute';
 import { createSmoothscroll } from 'theme/helpers'
 export default {
   name: 'MProductShortInfo',
   components: {
     SfHeading,
     SfIcon,
+    SfProperty,
     AProductRating,
     AProductPrice
   },

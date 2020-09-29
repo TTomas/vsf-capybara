@@ -23,7 +23,7 @@
           </SfListItem>
         </SfList>
       </SfMegaMenuColumn>
-      <template #aside>
+      <template v-if="banners.length > 0" #aside>
         <div class="aside-menu">
           <SfBanner
             v-for="(banner, i) in banners"
@@ -98,7 +98,8 @@ export default {
       return this.getCurrentCategory.name || ''
     },
     banners () {
-      return checkWebpSupport(this.getPromotedOffers.menuAsideBanners, this.isWebpSupported)
+      return []
+      //hk return checkWebpSupport(this.getPromotedOffers.menuAsideBanners, this.isWebpSupported)
     }
   }
 }

@@ -9,7 +9,7 @@
         "webp": "/assets/banner/webp/bannerF.webp",
         "fallback": "/assets/banner/png/bannerF.png"
       },
-      "link": "/women.html",
+      "link": "/kujna-19.html",
       "slot": "banner-A"
     },
     {
@@ -21,7 +21,7 @@
         "webp": "/assets/banner/webp/bannerE.webp",
         "fallback": "/assets/banner/png/bannerE.png"
       },
-      "link": "/men.html",
+      "link": "/Gradina-56.html",
       "slot": "banner-B"
     },
     {
@@ -31,7 +31,7 @@
         "webp": "/assets/banner/webp/bannerC.webp",
         "fallback": "/assets/banner/png/bannerC.png"
       },
-      "link": "/gear.html",
+      "link": "/Letno-173.html",
       "slot": "banner-C"
     },
     {
@@ -41,7 +41,7 @@
         "webp": "/assets/banner/webp/bannerG.webp",
         "fallback": "/assets/banner/png/bannerG.png"
       },
-      "link": "/gear.html",
+      "link": "/Dekor-9.html",
       "slot": "banner-D"
     }
   ],
@@ -53,7 +53,7 @@
         "webp": "/assets/banner/webp/bannerK.webp",
         "fallback": "/assets/banner/png/bannerK.png"
       },
-      "link": "/gear/gear-3"
+      "link": "/Dekor-9.html"
     },
     {
       "title": "THE OFFICE LIFE",
@@ -62,7 +62,7 @@
         "webp": "/assets/banner/webp/bannerC.webp",
         "fallback": "/assets/banner/png/bannerC.png"
       },
-      "link": "/men/tops-men/tees-men/tees-16"
+      "link": "/Dekor-9.html"
     }
   ],
   "menuAsideBanners": [
