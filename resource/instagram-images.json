@@ -2,38 +2,56 @@
   "instagramImages": [
     {
       "image": {
-        "webp": "/assets/ig/webp/ig01.webp",
-        "fallback": "/assets/ig/jpg/ig01.jpg"
+        "webp": "/assets/ig/webp/igtt01.webp",
+        "fallback": "/assets/ig/jpg/igtt01.jpg"
       }
     },
     {
       "image": {
-        "webp": "/assets/ig/webp/ig02.webp",
-        "fallback": "/assets/ig/jpg/ig02.jpg"
+        "webp": "/assets/ig/webp/igtt02.webp",
+        "fallback": "/assets/ig/jpg/igtt02.jpg"
       }
     },
     {
       "image": {
-        "webp": "/assets/ig/webp/ig03.webp",
-        "fallback": "/assets/ig/jpg/ig03.jpg"
+        "webp": "/assets/ig/webp/igtt03.webp",
+        "fallback": "/assets/ig/jpg/igtt03.jpg"
       }
     },
     {
       "image": {
-        "webp": "/assets/ig/webp/ig04.webp",
-        "fallback": "/assets/ig/jpg/ig04.jpg"
+        "webp": "/assets/ig/webp/igtt04.webp",
+        "fallback": "/assets/ig/jpg/igtt04.jpg"
       }
     },
     {
       "image": {
-        "webp": "/assets/ig/webp/ig05.webp",
-        "fallback": "/assets/ig/jpg/ig05.jpg"
+        "webp": "/assets/ig/webp/igtt05.webp",
+        "fallback": "/assets/ig/jpg/igtt05.jpg"
       }
     },
     {
       "image": {
-        "webp": "/assets/ig/webp/ig06.webp",
-        "fallback": "/assets/ig/jpg/ig06.jpg"
+        "webp": "/assets/ig/webp/igtt06.webp",
+        "fallback": "/assets/ig/jpg/igtt06.jpg"
+      }
+    },
+    {
+      "image": {
+        "webp": "/assets/ig/webp/igtt07.webp",
+        "fallback": "/assets/ig/jpg/igtt07.jpg"
+      }
+    },
+    {
+      "image": {
+        "webp": "/assets/ig/webp/igtt08.webp",
+        "fallback": "/assets/ig/jpg/igtt08.jpg"
+      }
+    },
+    {
+      "image": {
+        "webp": "/assets/ig/webp/igtt14.webp",
+        "fallback": "/assets/ig/jpg/igtt14.jpg"
       }
     }
   ]

@@ -19,7 +19,7 @@ export default {
   props: {
     row: {
       type: Number,
-      default: 2,
+      default: 3,
       validator: (value) => value > 0
     },
     images: {

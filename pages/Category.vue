@@ -50,7 +50,7 @@
           class="sf-button--text navbar__filters-button sort-by__button mobile-only"
           @click="$refs.SortBy.toggle()"
         >
-          {{ $t('Sort by') }}
+          {{ $t('Sort By') }}
           <ASortIcon />
         </SfButton>
         <div class="navbar__counter">
@@ -113,6 +113,8 @@
                 link-tag="router-link"
                 :wishlist-icon="false"
                 class="products__product-card"
+                imageWidth=200
+                imageHeight=200
               />
             </transition-group>
           </lazy-hydrate>

@@ -1,12 +1,12 @@
 {
   "images": [
     {
-      "title": "Добредојдовте во БАЗАРО e-Shop",
-      "subtitle": "ЛЕТО 2020",
+      "title": "",
+      "subtitle": "",
       "background": "#F0F5F3",
       "image": {
-        "webp": "/assets/banner/webp/bazarobaner1.webp",
-        "fallback": "/assets/banner/png/bazarobaner1.png"
+        "webp": "/assets/banner/webp/tuctucbaner01.webp",
+        "fallback": "/assets/banner/png/tuctucbaner01.jpg"
       }
     },
     {
@@ -15,8 +15,8 @@
       "background": "#F0F5F3",
       "className": "sf-hero-item--position-bg-top-left sf-hero-item--align-right",
       "image": {
-        "webp": "/assets/banner/webp/bazarobaner2.webp",
-        "fallback": "/assets/banner/png/bazarobaner2.png"
+        "webp": "/assets/banner/webp/tuctucbaner02.webp",
+        "fallback": "/assets/banner/png/tuctucbaner02.jpg"
       }
     }
   ]

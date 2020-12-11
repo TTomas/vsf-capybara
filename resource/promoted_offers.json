@@ -1,15 +1,15 @@
 {
   "mainBanners": [
     {
-      "title": "COCKTAIL PARTY",
-      "subtitle": "Dresses",
+      "title": "НОВОРОДЕНЧЕ",
+      "subtitle": "New born",
       "description": "Find stunning women's cocktail dresses and party dresses. Stand out in lace and metallic cocktail dresses from all your favorite brands.",
-      "buttonText": "SHOP NOW",
+      "buttonText": "КУПИ",
       "image": {
-        "webp": "/assets/banner/webp/bannerF.webp",
-        "fallback": "/assets/banner/png/bannerF.png"
+        "webp": "/assets/banner/webp/newborn-banerA.webp",
+        "fallback": "/assets/banner/png/newborn-banerA.jpg"
       },
-      "link": "/kujna-19.html",
+      "link": "/Novorodence-3.html",
       "slot": "banner-A"
     },
     {

@@ -5,7 +5,7 @@
     class="a-logo"
   >
     <SfImage
-      src="/assets/logo-bazaro.jpg"
+      src="/assets/logo-tuctuc.png"
       :alt="$t(defaultTitle)"
       class="sf-header__logo"
     />
@@ -33,7 +33,7 @@ export default {
 .a-logo {
   display: inline-flex;
   ::v-deep .sf-header__logo {
-    --header-logo-width: 180px;
+    --header-logo-width: 59px;
     --header-logo-height: 66px;
   }
 }
