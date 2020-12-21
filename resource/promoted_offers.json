@@ -2,67 +2,67 @@
   "mainBanners": [
     {
       "title": "НОВОРОДЕНЧЕ",
-      "subtitle": "New born",
-      "description": "Find stunning women's cocktail dresses and party dresses. Stand out in lace and metallic cocktail dresses from all your favorite brands.",
+      "subtitle": "",
+      "description": "За нашите најмили и најмали, од 0 месеци до 18 месеци.",
       "buttonText": "КУПИ",
       "image": {
-        "webp": "/assets/banner/webp/newborn-banerA.webp",
-        "fallback": "/assets/banner/png/newborn-banerA.jpg"
+        "webp": "/assets/banner/webp/novorodence-banerA.webp",
+        "fallback": "/assets/banner/png/novorodence-banerA.jpg"
       },
       "link": "/Novorodence-3.html",
       "slot": "banner-A"
     },
     {
-      "title": "LINEN DRESSES",
-      "subtitle": "Dresses",
-      "description": "Find stunning women's cocktail dresses and party dresses. Stand out in lace and metallic cocktail dresses from all your favorite brands.",
-      "buttonText": "SHOP NOW",
+      "title": "PARTY",
+      "subtitle": "",
+      "description": "За нашите волшебни tuc tuc девојчиња. Заблескајте во полн сјај...",
+      "buttonText": "КУПИ",
       "image": {
-        "webp": "/assets/banner/webp/bannerE.webp",
-        "fallback": "/assets/banner/png/bannerE.png"
+        "webp": "/assets/banner/webp/party-banerB.webp",
+        "fallback": "/assets/banner/png/party-banerB.jpg"
       },
-      "link": "/Gradina-56.html",
+      "link": "/PARTY-48.html",
       "slot": "banner-B"
     },
     {
-      "title": "THE OFFICE LIFE",
-      "subtitle": "T-Shirts",
+      "title": "SCHOOL OF ARTS",
+      "subtitle": "",
       "image": {
-        "webp": "/assets/banner/webp/bannerC.webp",
-        "fallback": "/assets/banner/png/bannerC.png"
+        "webp": "/assets/banner/webp/school-of-arts-banerC.webp",
+        "fallback": "/assets/banner/png/school-of-arts-banerC.jpg"
       },
-      "link": "/Letno-173.html",
+      "link": "/SCHOOL_OF_ARTS-67.html",
       "slot": "banner-C"
     },
     {
-      "title": "ECO SANDALS",
-      "subtitle": "Summer shoes",
+      "title": "ОПРЕМА",
+      "subtitle": "",
       "image": {
-        "webp": "/assets/banner/webp/bannerG.webp",
-        "fallback": "/assets/banner/png/bannerG.png"
+        "webp": "/assets/banner/webp/oprema-banerD.webp",
+        "fallback": "/assets/banner/png/oprema-banerD.jpg"
       },
-      "link": "/Dekor-9.html",
+      "link": "/Oprema-8.html",
       "slot": "banner-D"
     }
   ],
   "productBanners": [
     {
-      "title": "ECO SANDALS",
-      "subtitle": "Summer shoes",
+      "title": "THE BEST BAND",
+      "subtitle": "The Best Bans",
       "image": {
-        "webp": "/assets/banner/webp/bannerK.webp",
-        "fallback": "/assets/banner/png/bannerK.png"
+        "webp": "/assets/banner/webp/the-bast-band-banerE.webp",
+        "fallback": "/assets/banner/png/the-bast-band-banerE.jpg"
       },
-      "link": "/Dekor-9.html"
+      "link": "/THE_BEST_BAND-19.html"
     },
     {
-      "title": "THE OFFICE LIFE",
-      "subtitle": "T-Shirts",
+      "title": "NORTH TRIBES",
+      "subtitle": "North Tribes",
       "image": {
-        "webp": "/assets/banner/webp/bannerC.webp",
-        "fallback": "/assets/banner/png/bannerC.png"
+        "webp": "/assets/banner/webp/north-tribes-banerF.webp",
+        "fallback": "/assets/banner/png/north-tribes-banerF.jpg"
       },
-      "link": "/Dekor-9.html"
+      "link": "/NORTH_TRIBES-195.html"
     }
   ],
   "menuAsideBanners": [

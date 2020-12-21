@@ -23,6 +23,7 @@
       <template v-for="(banner, i) in banners" #[banner.slot]>
         <router-link :key="i" :to="banner.link">
           <SfBanner
+            :class="['baner-'+i]"
             :subtitle="banner.subtitle"
             :title="banner.title"
             :description="banner.description"
@@ -177,6 +178,29 @@ export default {
   @include for-desktop {
     padding-left: 0;
     padding-right: 0;
+  }
+}
+</style>
+<style lang="scss" >
+@import "~@storefront-ui/shared/styles/helpers";
+.baner-0 {
+  --banner-title-margin: -2rem 0 0 0;
+}
+.baner-1 {
+  --banner-title-margin: -2rem 0 0 0;
+  .sf-banner__description {
+    background-color: rgba(220, 220, 255, 0.6);
+  }
+}
+.baner-2 {
+  --banner-title-font-size: 20px;
+  --banner-title-margin: -2rem 0 0 0;
+}
+.baner-3 {
+  --banner-title-font-size: 20px;
+  --banner-title-margin: -2rem 0 0 0;
+  .sf-banner__title {
+    background-color: rgba(220, 220, 220, 0.5);
   }
 }
 </style>
