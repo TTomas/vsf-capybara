@@ -180,27 +180,33 @@ export default {
     padding-right: 0;
   }
 }
-</style>
-<style lang="scss" >
-@import "~@storefront-ui/shared/styles/helpers";
 .baner-0 {
-  --banner-title-margin: -2rem 0 0 0;
+  ::v-deep {
+    --banner-title-margin: -2rem 0 0 0;
+  }
 }
 .baner-1 {
-  --banner-title-margin: -2rem 0 0 0;
-  .sf-banner__description {
-    background-color: rgba(220, 220, 255, 0.6);
+  ::v-deep {
+    --banner-title-margin: -2rem 0 0 0;
+    .sf-banner__description {
+      background-color: rgba(220, 220, 255, 0.6);
+    }
   }
 }
 .baner-2 {
-  --banner-title-font-size: 20px;
-  --banner-title-margin: -2rem 0 0 0;
-}
-.baner-3 {
-  --banner-title-font-size: 20px;
-  --banner-title-margin: -2rem 0 0 0;
-  .sf-banner__title {
-    background-color: rgba(220, 220, 220, 0.5);
+  ::v-deep {
+    --banner-title-font-size: 20px;
+    --banner-title-margin: -2rem 0 0 0;
   }
 }
+.baner-3 {
+  ::v-deep {
+    --banner-title-font-size: 20px;
+    --banner-title-margin: -2rem 0 0 0;
+    .sf-banner__title {
+      background-color: rgba(220, 220, 220, 0.5);
+    }
+  }
+}
+
 </style>
