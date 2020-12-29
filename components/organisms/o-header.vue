@@ -203,7 +203,7 @@ export default {
   --header-icons-order: 3;
   --header-icons-margin: 0;
 }
-.sf-header /deep/ .sf-header__navigation {
+.sf-header ::v-deep .sf-header__navigation {
   @include for-desktop {
     flex: 0 0 0;
   }

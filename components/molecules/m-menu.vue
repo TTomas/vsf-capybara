@@ -122,7 +122,11 @@ export default {
 }
 .aside-menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: stretch;
+  flex-wrap: wrap;
+  @include for-desktop {
+     justify-content: space-between;
+  }
 }
 .aside-banner {
   margin: 0 1rem;
