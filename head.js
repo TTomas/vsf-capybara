@@ -1,6 +1,6 @@
 export default {
   title: 'VSF Capybara',
-  titleTemplate: '%s - Vue Storefront',
+  titleTemplate: '%s - Tuc Tuc & Friends',
   htmlAttrs: {
     lang: 'en'
   },
