@@ -110,6 +110,7 @@
         class="form__element"
         name="phone"
         :label="$t('Phone Number')"
+        required
       />
     </div>
     <SfHeading
@@ -211,6 +212,9 @@ export default {
       city: {
         required,
         unicodeAlpha
+      },
+      phoneNumber: {
+        required        
       }
     }
   },

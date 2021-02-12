@@ -20,44 +20,20 @@
           </SfListItem>
         </SfList>
       </SfFooterColumn>
-      <SfFooterColumn :title="$t('Others')">
-        <SfList>
-          <SfListItem>
-            <router-link to="/legal" exact>
-              <SfMenuItem
-                class="sf-footer__menu-item"
-                :label="$t('Legal notice')"
-              />
-            </router-link>
-          </SfListItem>
-          <SfListItem>
-            <router-link to="/privacy" exact>
-              <SfMenuItem
-                class="sf-footer__menu-item"
-                :label="$t('Privacy policy')"
-              />
-            </router-link>
-          </SfListItem>
-          <SfListItem v-if="multistoreEnabled">
-            <SfMenuItem
-              @click.native="showLanguageSwitcher"
-              class="sf-footer__menu-item"
-              :label="currentLanguage"
-            />
-          </SfListItem>
-          <SfListItem class="sf-footer__menu-item">
-            {{ getVersionInfo }}
-          </SfListItem>
-        </SfList>
-      </SfFooterColumn>
       <SfFooterColumn :title="$t('Social')" class="social-column">
         <div class="social-icon">
-          <img
+          <a
             v-for="item in social"
-            :key="item"
-            :src="'/assets/icons/' + item + '.svg'"
-            class="social-icon__img"
+            :key="item.name"
+            :href="item.url"
+            target="_blank"
+            class="social-icon__img" 
           >
+            <img
+              :src="'/assets/icons/' + item.name + '.svg'"
+              class="social-icon__img"
+            >
+          </a>          
         </div>
       </SfFooterColumn>
     </SfFooter>
@@ -85,7 +61,16 @@ export default {
   },
   data () {
     return {
-      social: ['facebook', 'pinterest', 'twitter', 'youtube']
+      social: [
+                {
+                  name: 'facebook',
+                  url: 'https://www.facebook.com/tuctuc.and.friends.mk/?ref=bookmarks'
+                },
+                {
+                  name: 'instagram',
+                  url: 'https://www.instagram.com/tuctuc_and_friends.mk/'
+                }
+              ]
     };
   },
   computed: {
@@ -94,7 +79,7 @@ export default {
       return get(config, 'storeViews.multistore', false);
     },
     getVersionInfo () {
-      return `v${process.env.__APPVERSION__} ${process.env.__BUILDTIME__}`;
+      return ''; //`v${process.env.__APPVERSION__} ${process.env.__BUILDTIME__}`;
     },
     currentLanguage () {
       const { i18n = config.i18n } = currentStoreView();
@@ -111,16 +96,23 @@ export default {
                 ? { link: '/my-account' }
                 : { clickHandler: () => this.openModal({ name: ModalList.Auth, payload: 'login' }) }
             },
-            { name: 'Delivery', link: '/delivery' },
-            { name: 'Return policy', link: '/returns' }
+            { 
+              name: 'Delivery', 
+              link: getPathForStaticPage('/delivery')
+            }
           ]
         },
         help: {
           name: 'Help',
           children: [
-            { name: 'Customer service', link: '/customer-service' },
-            { name: 'Size guide', link: '/size-guide' },
-            { name: 'Contact us', link: '/contact' }
+            { 
+              name: 'Size guide', 
+              link: getPathForStaticPage('/size-guide')
+            },
+            { 
+              name: 'Contact us', 
+              link: getPathForStaticPage('/contact')
+            }
           ]
         },
         about: {
@@ -130,11 +122,22 @@ export default {
               name: 'About us',
               link: getPathForStaticPage('/about-us')
             },
+            { name: 'Store locator', 
+              link: getPathForStaticPage('/store-locator')
+            }
+          ]
+        },
+        others: {
+          name: 'Others',
+          children: [            
             {
-              name: 'Customer service',
-              link: getPathForStaticPage('/customer-service')
+              name: 'Legal notice',
+              link: getPathForStaticPage('/legal')              
             },
-            { name: 'Store locator', link: '/store-locator' }
+            {
+              name: 'Privacy policy',
+              link: getPathForStaticPage('/privacy')
+            }
           ]
         }
       };
@@ -158,6 +161,9 @@ export default {
   @include for-desktop {
     max-width: 1272px;
     margin: auto;
+  }
+  @include for-mobile {
+    margin-bottom: var(--bottom-navigation-height); 
   }
   .sf-footer {
     --footer-width: auto;

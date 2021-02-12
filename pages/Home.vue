@@ -23,6 +23,7 @@
       <template v-for="(banner, i) in banners" #[banner.slot]>
         <router-link :key="i" :to="banner.link">
           <SfBanner
+            :class="['baner-'+i]"
             :subtitle="banner.subtitle"
             :title="banner.title"
             :description="banner.description"
@@ -164,13 +165,41 @@ export default {
   }
 }
 .sf-hero-item {
-  --hero-item-height: 14rem;
+  --hero-item-height: 581px;
   height: initial;
 }
 .banner-grid {
   margin: var(--spacer-base) 0;
   @include for-desktop {
     margin: var(--spacer-2xl) 0;
+  }
+}
+.baner-0 {
+  ::v-deep {
+    --banner-title-margin: -2rem 0 0 0;
+  }
+}
+.baner-1 {
+  ::v-deep {
+    --banner-title-margin: -2rem 0 0 0;
+    .sf-banner__description {
+      background-color: rgba(220, 220, 255, 0.6);
+    }
+  }
+}
+.baner-2 {
+  ::v-deep {
+    --banner-title-font-size: 20px;
+    --banner-title-margin: -2rem 0 0 0;
+  }
+}
+.baner-3 {
+  ::v-deep {
+    --banner-title-font-size: 20px;
+    --banner-title-margin: -2rem 0 0 0;
+    .sf-banner__title {
+      background-color: rgba(220, 220, 220, 0.5);
+    }
   }
 }
 </style>

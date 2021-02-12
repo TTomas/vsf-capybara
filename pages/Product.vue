@@ -266,5 +266,10 @@ export default {
   @include for-desktop {
     margin: var(--spacer-2xl) 0;
   }
+  ::v-deep .sf-banner {
+    &__container {
+      --banner-container-align-items: flex-end;
+    }  
+  }  
 }
 </style>

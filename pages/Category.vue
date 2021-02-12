@@ -113,6 +113,8 @@
                 link-tag="router-link"
                 :wishlist-icon="false"
                 class="products__product-card"
+                imageWidth=200
+                imageHeight=200                
               />
             </transition-group>
           </lazy-hydrate>
@@ -230,6 +232,9 @@ const composeInitialPageState = async (store, route, forceLoad = false) => {
     const cachedCategory = store.getters['category-next/getCategoryFrom'](
       route.path
     );
+    if (Object.keys(filters).length === 0) {
+      forceLoad = false
+    }    
     const currentCategory =
       cachedCategory && !forceLoad
         ? cachedCategory
@@ -532,6 +537,7 @@ export default {
       }
     },
     changeFilter (filter) {
+      delete this.$route.query.page;
       this.$store.dispatch('category-next/switchSearchFilters', [filter]);
     },
     clearAllFilters () {

@@ -5,7 +5,7 @@
     class="a-logo"
   >
     <SfImage
-      src="/assets/logo.svg"
+      src="/assets/logoTucTucAndFriends.jpg"
       :alt="$t(defaultTitle)"
       class="sf-header__logo"
     />
@@ -32,5 +32,9 @@ export default {
 <style lang="scss" scoped>
 .a-logo {
   display: inline-flex;
+  ::v-deep .sf-header__logo {
+    --header-logo-width: 167px;
+    --header-logo-height: 66px;
+  }  
 }
 </style>

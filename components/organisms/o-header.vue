@@ -9,7 +9,8 @@
       :active-icon="activeIcon"
       :class="{
         'sf-header--has-mobile-search': isSearchPanelVisible,
-        'sf-header--is-sticky': isSearchPanelVisible
+        'sf-header--is-sticky': isSearchPanelVisible,
+        'sf-header--multiline': true
       }"
       :style="{'z-index': isHoveredMenu ? 2 : 1}"
     >
@@ -151,7 +152,7 @@ export default {
   z-index: 1;
 }
 .o-header {
-  --header-navigation-item-margin: 0 2rem 0 0;
+  --header-navigation-item-margin: 0 0rem 0 0;
   box-sizing: border-box;
   a {
     &.active {
@@ -194,6 +195,15 @@ export default {
         cursor: pointer;
       }
     }
+  }
+}
+.sf-header--multiline {
+  --header-icons-order: 3;
+  --header-icons-margin: 0;
+}
+.sf-header ::v-deep .sf-header__navigation {
+  @include for-desktop {
+    flex: 0 0 0;
   }
 }
 </style>

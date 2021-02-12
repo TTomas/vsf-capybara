@@ -1,0 +1,31 @@
+1. App.vue No change
+2. Assets changed
+3. components/atoms/a-images-grid.vue changed
+4. components/atoms/a-logo.vue changed
+5. components/molecules/m-menu.vue changed ima problem
+6. components/molecules/m-product-short-info.vue
+  red 41 izbrisav  SfPrice, SfButton
+  red 44 //hk
+7. components/organisms/o-footer.vue changed
+8. components/organisms/o-header.vue changed
+9. components/organisms/o-my-account-order-details.vue changed
+10. components/organisms/o-my-account-orders-history.vue 
+    New change delete tab Returns / Vrakanja
+11. components/organisms/o-payment.vue changed
+12. components/organisms/o-search.vue changed
+13. components/organisms/o-shipping.vue changed
+14. config/modules.ts changed
+15. head.js changed
+16. package.json Not changed SFUI 0.7.11
+17. pages/Category.vue changed
+18. pages/Home.vue changed
+19. pages/MyAccount.vue changed
+20. pages/Product.vue changed
+21. pages/Static.vue changed
+22. resource/i18n/mk-MK.csv 
+23. resource/instagram-images.json changed
+24. resource/main-images.json changed
+25. resource/promoted_offers.json changed
+
+https://github.com/vuestorefront/storefront-ui/commit/96a160fde2800e7ed78982e1c81d353dc6bc112c
+

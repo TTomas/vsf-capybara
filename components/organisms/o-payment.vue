@@ -116,6 +116,8 @@
         class="form__element"
         name="phone"
         :label="$t('Phone Number')"
+        :required="true"
+        @blur="$v.payment.phoneNumber.$touch()"        
       />
       <SfCheckbox
         v-model="generateInvoice"
@@ -250,6 +252,9 @@ export default {
       },
       paymentMethod: {
         required
+      },
+      phoneNumber: {
+        required        
       }
     };
 

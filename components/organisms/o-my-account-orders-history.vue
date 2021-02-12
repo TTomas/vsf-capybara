@@ -56,6 +56,7 @@
           <OMyAccountOrderDetails :order="activeOrder" @close="setActiveOrder(null)" />
         </template>
       </SfTab>
+      <!--
       <SfTab :title="$t('Returns')">
         <p class="message">
           {{ $t('This feature is not implemented yet! Please take a look at') }}
@@ -63,6 +64,7 @@
           {{ $t('for our Roadmap!') }}
         </p>
       </SfTab>
+      /!-->
     </SfTabs>
   </div>
 </template>

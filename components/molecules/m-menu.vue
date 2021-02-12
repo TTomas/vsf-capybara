@@ -23,7 +23,7 @@
           </SfListItem>
         </SfList>
       </SfMegaMenuColumn>
-      <template #aside>
+      <template v-if="banners.length > 0" #aside>
         <div class="aside-menu">
           <SfBanner
             v-for="(banner, i) in banners"
@@ -98,7 +98,8 @@ export default {
       return this.getCurrentCategory.name || ''
     },
     banners () {
-      return checkWebpSupport(this.getPromotedOffers.menuAsideBanners, this.isWebpSupported)
+      return []
+      //hk return checkWebpSupport(this.getPromotedOffers.menuAsideBanners, this.isWebpSupported)
     }
   }
 }
@@ -117,6 +118,19 @@ export default {
   transition: 0.2s;
   .router-link-exact-active {
     --menu-item-font-weight: bold;
+  }
+  @include for-desktop {
+    .sf-mega-menu-column {
+      --mega-menu-margin: 0 var(--spacer-sm) 0 0;
+    }
+    .sf-mega-menu {
+      --mega-menu-menu-display: contents;
+    }
+  }
+  @include for-mobile {
+    .sf-mega-menu-column {
+      --mega-menu-margin: 0 0 var(--bottom-navigation-height) 0;
+    }
   }
 }
 .aside-menu {
