@@ -428,10 +428,26 @@ export default {
     $route: {
       immediate: true,
       handler (to, from) {
-        if (to.query.page && to.path === from.path) {
-          this.changePage(parseInt(to.query.page) || 1);
+        if (isServer) {
+          if (to.query.page) {
+            this.changePage(parseInt(to.query.page) || 1);
+          } else {
+            this.initPagination()
+          }
         } else {
-          this.initPagination()
+          if (!from || (from.path === undefined)) {
+            if (to.query.page) {
+              this.changePage(parseInt(to.query.page) || 1);
+            } else {
+              this.initPagination()
+            }
+          } else {
+            if (to.query.page && to.path === from.path) {
+              this.changePage(parseInt(to.query.page) || 1);
+            } else {
+              this.initPagination()
+            }
+          }
         }
       }
     }
