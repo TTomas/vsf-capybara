@@ -10,7 +10,13 @@ export default {
       vmid: 'description',
       name: 'description',
       content:
-        'Vue Storefront is a standalone PWA storefront for your eCommerce, possible to connect with any eCommerce backend (eg. Magento, Prestashop or Shopware) through the API.'
+           'Тук Тук промовиран од страста создавајќи близок и забавен бренд за деца. Денес можеме да кажеме дека станува збор за многу повеќе од бренд за детска гардероба. Тук Тук е модерен, Тук Тук е тренд, но исто така е радост, надеж, забава. Тук Тук и пријателите Македонија. Tuc Tuc and Friends Macedonia. деца гардероба мода тренд новороденче опрема дете момче девојче облека deca garderoba moda trend novorodence oprema dete momce devojce obleka skopje makedonija скопје македонија'
+    },
+    {
+      vmid: 'keywords',
+      name: 'keywords',
+      content:
+           'Тук Тук, Tuc Tuc, TucTuc, ТукТук, Тук Тук и пријатели, TucTuc and friends, deca, деца, detska, детска, dete, дете, momce, момче, devojce, девојче, novorodence, новороденче, obleka, облека, garderoba, гардероба, oprema, опрема, brend, бренд, moda, мода, moderna, модерна, moderen, модерен, Тук Тук и пријателите Македонија, skopje, makedonija, скопје, македонија, macedonia'
     },
     {
       name: 'viewport',
