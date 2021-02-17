@@ -3,7 +3,7 @@
     {
       "title": "НОВОРОДЕНЧЕ",
       "subtitle": "",
-      "description": "За нашите најмили и најмали, од 0 месеци до 18 месеци.",
+      "description": "ПОПУСТИ ДО 50%",
       "buttonText": "КУПИ",
       "image": {
         "webp": "/assets/banner/webp/novorodence-banerA.webp",
@@ -15,7 +15,7 @@
     {
       "title": "PARTY",
       "subtitle": "",
-      "description": "За нашите волшебни tuc tuc девојчиња. Заблескајте во полн сјај...",
+      "description": "ПОПУСТИ ОД 30%",
       "buttonText": "КУПИ",
       "image": {
         "webp": "/assets/banner/webp/party-banerB.webp",
@@ -25,13 +25,13 @@
       "slot": "banner-B"
     },
     {
-      "title": "SCHOOL OF ARTS",
+      "title": "АКЦИЈА ПОПУСТИ ДО 50%",
       "subtitle": "",
       "image": {
-        "webp": "/assets/banner/webp/school-of-arts-banerC.webp",
-        "fallback": "/assets/banner/png/school-of-arts-banerC.jpg"
+        "webp": "/assets/banner/webp/akcija-banerC.webp",
+        "fallback": "/assets/banner/png/akcija-banerC.jpg"
       },
-      "link": "/SCHOOL_OF_ARTS-67.html",
+      "link": "/Akcija-18.html",
       "slot": "banner-C"
     },
     {
