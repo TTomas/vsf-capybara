@@ -12,6 +12,7 @@ import { NewsletterModule } from '@vue-storefront/core/modules/newsletter'
 import { PaymentBackendMethodsModule } from 'src/modules/payment-backend-methods'
 import { PaymentCashOnDeliveryModule } from 'src/modules/payment-cash-on-delivery'
 import { GoogleAnalyticsModule } from 'src/modules/google-analytics'
+import { GoogleTagManagerModule } from 'src/modules/google-tag-manager'
 import { registerModule } from '@vue-storefront/core/lib/modules'
 
 // TODO:distributed across proper pages BEFORE 1.11
@@ -29,6 +30,7 @@ export function registerClientModules () {
   registerModule(CmsModule)
   registerModule(NewsletterModule)
   registerModule(GoogleAnalyticsModule)
+  registerModule(GoogleTagManagerModule)
 }
 
 // Deprecated API, will be removed in 2.0
