@@ -1,45 +1,44 @@
 {
   "mainBanners": [
     {
-      "title": "НОВОРОДЕНЧЕ",
+      "title": "",
       "subtitle": "",
-      "description": "ПОПУСТИ ДО 50%",
-      "buttonText": "КУПИ",
+      "description": "",
       "image": {
-        "webp": "/assets/banner/webp/novorodence-banerA.webp",
-        "fallback": "/assets/banner/png/novorodence-banerA.jpg"
+        "webp": "/assets/banner/webp/bannerA01.webp",
+        "fallback": "/assets/banner/png/bannerA01.jpg"
       },
-      "link": "/Novorodence-3.html",
+      "link": "/Devojce_2-6_g-5.html",
       "slot": "banner-A"
     },
     {
-      "title": "PARTY",
+      "title": "",
       "subtitle": "",
-      "description": "ПОПУСТИ ОД 30%",
-      "buttonText": "КУПИ",
+      "description": "",
+      "buttonText": "",
       "image": {
-        "webp": "/assets/banner/webp/party-banerB.webp",
-        "fallback": "/assets/banner/png/party-banerB.jpg"
+        "webp": "/assets/banner/webp/bannerB01.webp",
+        "fallback": "/assets/banner/png/bannerB01.jpg"
       },
-      "link": "/PARTY-48.html",
+      "link": "/Momce_7-14g-194.html",
       "slot": "banner-B"
     },
     {
-      "title": "АКЦИЈА ПОПУСТИ ДО 50%",
+      "title": "",
       "subtitle": "",
       "image": {
-        "webp": "/assets/banner/webp/akcija-banerC.webp",
-        "fallback": "/assets/banner/png/akcija-banerC.jpg"
+        "webp": "/assets/banner/webp/bannerC01.webp",
+        "fallback": "/assets/banner/png/bannerC01.jpg"
       },
-      "link": "/Akcija-18.html",
+      "link": "/Novorodence-3.html",
       "slot": "banner-C"
     },
     {
-      "title": "ОПРЕМА",
+      "title": "",
       "subtitle": "",
       "image": {
-        "webp": "/assets/banner/webp/oprema-banerD.webp",
-        "fallback": "/assets/banner/png/oprema-banerD.jpg"
+        "webp": "/assets/banner/webp/bannerD01.webp",
+        "fallback": "/assets/banner/png/bannerD01.jpg"
       },
       "link": "/Oprema-8.html",
       "slot": "banner-D"
@@ -47,22 +46,22 @@
   ],
   "productBanners": [
     {
-      "title": "THE BEST BAND",
-      "subtitle": "The Best Bans",
+      "title": "DETOX TIME",
+      "subtitle": "",
       "image": {
-        "webp": "/assets/banner/webp/the-bast-band-banerE.webp",
-        "fallback": "/assets/banner/png/the-bast-band-banerE.jpg"
+        "webp": "/assets/banner/webp/bannerE01.webp",
+        "fallback": "/assets/banner/png/bannerE01.jpg"
       },
-      "link": "/THE_BEST_BAND-19.html"
+      "link": "/DETOX_TIME-389.html"
     },
     {
-      "title": "NORTH TRIBES",
-      "subtitle": "North Tribes",
+      "title": "KAMOGAWA",
+      "subtitle": "",
       "image": {
-        "webp": "/assets/banner/webp/north-tribes-banerF.webp",
-        "fallback": "/assets/banner/png/north-tribes-banerF.jpg"
+        "webp": "/assets/banner/webp/bannerF01.webp",
+        "fallback": "/assets/banner/png/bannerF01.jpg"
       },
-      "link": "/NORTH_TRIBES-195.html"
+      "link": "/KAMOGAWA-464.html"
     }
   ],
   "menuAsideBanners": [
