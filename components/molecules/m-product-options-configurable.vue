@@ -14,6 +14,7 @@
         :value="getActiveOption(attribute)"
         @change="handleChangeOption"
         class="sf-select--underlined product__select-size"
+        :size="attribute.values.length"
       >
         <SfSelectOption
           v-for="attributeOption in availableOptions[attribute.attribute_code]"
@@ -135,6 +136,7 @@ export default {
     flex: 100%;
     @include for-desktop {
       margin: 0;
+      --select-dropdown-z-index: 2;
     }
   }
   &__colors {
