@@ -40,6 +40,8 @@
                       <span class="sf-property__value" v-html="property.value" />
                     </template>
                   </SfProperty>
+                  <SfProperty v-if="product.totals.discount_percent" :name="$t('Discount %')" :value="product.totals.discount_percent" />
+                  <SfProperty :name="$t('Total')" :value="product.totals.row_total_with_discount" />
                 </div>
               </template>
               <template #more-actions>
