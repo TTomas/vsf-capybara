@@ -5,15 +5,8 @@
       "subtitle": "",
       "background": "#F0F5F3",
       "image": {
-        "webp": {
-          "mobile": "/assets/banner/webp/tuctucbaner01-3m.webp",
-          "desktop": "/assets/banner/webp/tuctucbaner01-3.webp"
-        },
-        "fallback": {
-          "mobile": "/assets/banner/png/tuctucbaner01-3m.jpg",
-          "desktop": "/assets/banner/png/tuctucbaner01-3.jpg"
-
-        }
+        "webp": "/assets/banner/webp/tuctucbaner01-2.webp",
+        "fallback": "/assets/banner/png/tuctucbaner01-2.jpg"
       }
     },
     {
@@ -22,8 +15,8 @@
       "background": "#F0F5F3",
       "className": "sf-hero-item--position-bg-top-left sf-hero-item--align-right",
       "image": {
-        "webp": "/assets/banner/webp/tuctucbaner01-2.webp",
-        "fallback": "/assets/banner/png/tuctucbaner01-2.jpg"
+        "webp": "/assets/banner/webp/tuctucbaner02-2.webp",
+        "fallback": "/assets/banner/png/tuctucbaner02-2.jpg"
       }
     },
     {
