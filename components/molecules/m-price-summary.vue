@@ -41,6 +41,13 @@
         class="sf-property--full-width property"
         :class="{'sf-property--large': isLarge}"
       />
+      <SfProperty
+        v-if="prices.coupon"
+        :name="$t('Coupon code')"
+        :value="prices.coupon"
+        class="sf-property--full-width property"
+        :class="{'sf-property--large': isLarge}"
+      />
       <SfButton
         class="sf-button sf-button--outline promo-code__button"
         @click="removeCoupon"
