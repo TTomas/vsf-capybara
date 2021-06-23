@@ -5,8 +5,14 @@
       "subtitle": "",
       "description": "",
       "image": {
-        "webp": "/assets/banner/webp/bannerA01.webp",
-        "fallback": "/assets/banner/png/bannerA01.jpg"
+        "webp": {
+          "mobile":  "/assets/banner/webp/bannerA04m.webp",
+          "desktop": "/assets/banner/webp/bannerA04.webp"
+        },
+        "fallback": {
+          "mobile":  "/assets/banner/png/bannerA04m.jpg",
+          "desktop": "/assets/banner/png/bannerA04.jpg"
+        }        
       },
       "link": "/Devojce_2-6_g-5.html",
       "slot": "banner-A"
@@ -17,8 +23,14 @@
       "description": "",
       "buttonText": "",
       "image": {
-        "webp": "/assets/banner/webp/bannerB01.webp",
-        "fallback": "/assets/banner/png/bannerB01.jpg"
+        "webp": {
+          "mobile":  "/assets/banner/webp/bannerB04m.webp",
+          "desktop": "/assets/banner/webp/bannerB04.webp"
+        },
+        "fallback": {
+          "mobile":  "/assets/banner/png/bannerB04m.jpg",
+          "desktop": "/assets/banner/png/bannerB04.jpg"
+        }        
       },
       "link": "/Momce_7-14g-194.html",
       "slot": "banner-B"
@@ -27,8 +39,14 @@
       "title": "",
       "subtitle": "",
       "image": {
-        "webp": "/assets/banner/webp/bannerC01.webp",
-        "fallback": "/assets/banner/png/bannerC01.jpg"
+        "webp": {
+          "mobile":  "/assets/banner/webp/bannerC04m.webp",
+          "desktop": "/assets/banner/webp/bannerC04.webp"
+        },
+        "fallback": {
+          "mobile":  "/assets/banner/png/bannerC04m.jpg",
+          "desktop": "/assets/banner/png/bannerC04.jpg"
+        }        
       },
       "link": "/Novorodence-3.html",
       "slot": "banner-C"
@@ -37,8 +55,14 @@
       "title": "",
       "subtitle": "",
       "image": {
-        "webp": "/assets/banner/webp/bannerD01.webp",
-        "fallback": "/assets/banner/png/bannerD01.jpg"
+        "webp": {
+          "mobile":  "/assets/banner/webp/bannerD04m.webp",
+          "desktop": "/assets/banner/webp/bannerD04.webp"
+        },
+        "fallback": {
+          "mobile":  "/assets/banner/png/bannerD04m.jpg",
+          "desktop": "/assets/banner/png/bannerD04.jpg"
+        }        
       },
       "link": "/Oprema-8.html",
       "slot": "banner-D"
@@ -46,20 +70,32 @@
   ],
   "productBanners": [
     {
-      "title": "DETOX TIME",
+      "title": "",
       "subtitle": "",
       "image": {
-        "webp": "/assets/banner/webp/bannerE01.webp",
-        "fallback": "/assets/banner/png/bannerE01.jpg"
+        "webp": {
+          "mobile":  "/assets/banner/webp/bannerE04m.webp",
+          "desktop": "/assets/banner/webp/bannerE04.webp"
+        },
+        "fallback": {
+          "mobile":  "/assets/banner/png/bannerE04m.jpg",
+          "desktop": "/assets/banner/png/bannerE04.jpg"
+        }        
       },
       "link": "/DETOX_TIME-389.html"
     },
     {
-      "title": "KAMOGAWA",
+      "title": "",
       "subtitle": "",
       "image": {
-        "webp": "/assets/banner/webp/bannerF01.webp",
-        "fallback": "/assets/banner/png/bannerF01.jpg"
+        "webp": {
+          "mobile":  "/assets/banner/webp/bannerF04m.webp",
+          "desktop": "/assets/banner/webp/bannerF04.webp"
+        },
+        "fallback": {
+          "mobile":  "/assets/banner/png/bannerF04m.jpg",
+          "desktop": "/assets/banner/png/bannerF04.jpg"
+        }        
       },
       "link": "/KAMOGAWA-464.html"
     }
