@@ -6,12 +6,12 @@
       "description": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerA04m.webp",
-          "desktop": "/assets/banner/webp/bannerA04.webp"
+          "mobile":  "/assets/banner/webp/bannerA06m.webp",
+          "desktop": "/assets/banner/webp/bannerA06.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerA04m.jpg",
-          "desktop": "/assets/banner/png/bannerA04.jpg"
+          "mobile":  "/assets/banner/png/bannerA06m.jpg",
+          "desktop": "/assets/banner/png/bannerA06.jpg"
         }        
       },
       "link": "/Devojce__2-6_god-515.html",
@@ -24,12 +24,12 @@
       "buttonText": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerB04m.webp",
-          "desktop": "/assets/banner/webp/bannerB04.webp"
+          "mobile":  "/assets/banner/webp/bannerB06m.webp",
+          "desktop": "/assets/banner/webp/bannerB06.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerB04m.jpg",
-          "desktop": "/assets/banner/png/bannerB04.jpg"
+          "mobile":  "/assets/banner/png/bannerB06m.jpg",
+          "desktop": "/assets/banner/png/bannerB06.jpg"
         }        
       },
       "link": "/Momce_7-14_god-576.html",
@@ -40,12 +40,12 @@
       "subtitle": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerC04m.webp",
-          "desktop": "/assets/banner/webp/bannerC04.webp"
+          "mobile":  "/assets/banner/webp/bannerC06m.webp",
+          "desktop": "/assets/banner/webp/bannerC06.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerC04m.jpg",
-          "desktop": "/assets/banner/png/bannerC04.jpg"
+          "mobile":  "/assets/banner/png/bannerC06m.jpg",
+          "desktop": "/assets/banner/png/bannerC06.jpg"
         }        
       },
       "link": "/Bebe_0-18_meseci-3.html",
@@ -56,12 +56,12 @@
       "subtitle": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerD04m.webp",
-          "desktop": "/assets/banner/webp/bannerD04.webp"
+          "mobile":  "/assets/banner/webp/bannerD06m.webp",
+          "desktop": "/assets/banner/webp/bannerD06.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerD04m.jpg",
-          "desktop": "/assets/banner/png/bannerD04.jpg"
+          "mobile":  "/assets/banner/png/bannerD06m.jpg",
+          "desktop": "/assets/banner/png/bannerD06.jpg"
         }        
       },
       "link": "/Oprema-8.html",
@@ -74,30 +74,30 @@
       "subtitle": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerE04m.webp",
-          "desktop": "/assets/banner/webp/bannerE04.webp"
+          "mobile":  "/assets/banner/webp/bannerE06m.webp",
+          "desktop": "/assets/banner/webp/bannerE06.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerE04m.jpg",
-          "desktop": "/assets/banner/png/bannerE04.jpg"
+          "mobile":  "/assets/banner/png/bannerE06m.jpg",
+          "desktop": "/assets/banner/png/bannerE06.jpg"
         }        
       },
-      "link": "/DETOX_TIME-389.html"
+      "link": "/HIGHLANDS-683.html"
     },
     {
       "title": "",
       "subtitle": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerF04m.webp",
-          "desktop": "/assets/banner/webp/bannerF04.webp"
+          "mobile":  "/assets/banner/webp/bannerF06m.webp",
+          "desktop": "/assets/banner/webp/bannerF06.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerF04m.jpg",
-          "desktop": "/assets/banner/png/bannerF04.jpg"
+          "mobile":  "/assets/banner/png/bannerF06m.jpg",
+          "desktop": "/assets/banner/png/bannerF06.jpg"
         }        
       },
-      "link": "/KAMOGAWA-464.html"
+      "link": "/HELLO_LONDON-680.html"
     }
   ],
   "menuAsideBanners": [

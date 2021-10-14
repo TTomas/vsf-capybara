@@ -6,12 +6,12 @@
       "background": "#F0F5F3",
       "image": {
         "webp": {
-          "mobile": "/assets/banner/webp/tuctucbaner01-05m.webp",
-          "desktop": "/assets/banner/webp/tuctucbaner01-05.webp"
+          "mobile": "/assets/banner/webp/tuctucbaner01-06m.webp",
+          "desktop": "/assets/banner/webp/tuctucbaner01-06.webp"
         },
         "fallback": {
-          "mobile": "/assets/banner/png/tuctucbaner01-05m.jpg",
-          "desktop": "/assets/banner/png/tuctucbaner01-05.jpg"
+          "mobile": "/assets/banner/png/tuctucbaner01-06m.jpg",
+          "desktop": "/assets/banner/png/tuctucbaner01-06.jpg"
         }        
       }
     },
@@ -22,12 +22,12 @@
       "className": "sf-hero-item--position-bg-top-left sf-hero-item--align-right",
       "image": {
         "webp": {
-          "mobile": "/assets/banner/webp/tuctucbaner02-04m.webp",
-          "desktop": "/assets/banner/webp/tuctucbaner02-04.webp"
+          "mobile": "/assets/banner/webp/tuctucbaner02-06m.webp",
+          "desktop": "/assets/banner/webp/tuctucbaner02-06.webp"
         },
         "fallback": {
-          "mobile": "/assets/banner/png/tuctucbaner02-04m.jpg",
-          "desktop": "/assets/banner/png/tuctucbaner02-04.jpg"
+          "mobile": "/assets/banner/png/tuctucbaner02-06m.jpg",
+          "desktop": "/assets/banner/png/tuctucbaner02-06.jpg"
         }        
       }
     },
@@ -37,12 +37,12 @@
       "background": "#F0F5F3",
       "image": {
         "webp": {
-          "mobile": "/assets/banner/webp/tuctucbaner03-04m.webp",
-          "desktop": "/assets/banner/webp/tuctucbaner03-04.webp"
+          "mobile": "/assets/banner/webp/tuctucbaner03-06m.webp",
+          "desktop": "/assets/banner/webp/tuctucbaner03-06.webp"
         },
         "fallback": {
-          "mobile": "/assets/banner/png/tuctucbaner03-04m.jpg",
-          "desktop": "/assets/banner/png/tuctucbaner03-04.jpg"
+          "mobile": "/assets/banner/png/tuctucbaner03-06m.jpg",
+          "desktop": "/assets/banner/png/tuctucbaner03-06.jpg"
         }        
       }
     }
