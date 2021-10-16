@@ -165,8 +165,20 @@ export default {
   }
 }
 .sf-hero-item {
-  --hero-item-height: 527px;
-  height: initial;
+  @include for-desktop {
+    --hero-item-height: 527px;
+    height: initial;
+  }
+  @include for-mobile {
+    --hero-item-height: 0;
+    padding: 53.6% 0 0 0;
+    --hero-item-background-size: cover;
+  }
+}
+.sf-banner {
+  @include for-mobile {
+    padding: 68.5% 0 0 0;
+  }
 }
 .banner-grid {
   margin: var(--spacer-base) 0;

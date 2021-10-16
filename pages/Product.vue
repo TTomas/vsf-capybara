@@ -272,4 +272,10 @@ export default {
     }  
   }  
 }
+.sf-banner {
+  @include for-mobile {
+    padding: 68% 0 0 0;
+  }
+}
+
 </style>
