@@ -6,12 +6,12 @@
       "description": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerA06m.webp",
-          "desktop": "/assets/banner/webp/bannerA06.webp"
+          "mobile":  "/assets/banner/webp/bannerA07m.webp",
+          "desktop": "/assets/banner/webp/bannerA07.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerA06m.jpg",
-          "desktop": "/assets/banner/png/bannerA06.jpg"
+          "mobile":  "/assets/banner/png/bannerA07m.jpg",
+          "desktop": "/assets/banner/png/bannerA07.jpg"
         }        
       },
       "link": "/Devojce__2-6_god-515.html",
@@ -24,15 +24,15 @@
       "buttonText": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerB06m.webp",
-          "desktop": "/assets/banner/webp/bannerB06.webp"
+          "mobile":  "/assets/banner/webp/bannerB07m.webp",
+          "desktop": "/assets/banner/webp/bannerB07.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerB06m.jpg",
-          "desktop": "/assets/banner/png/bannerB06.jpg"
+          "mobile":  "/assets/banner/png/bannerB07m.jpg",
+          "desktop": "/assets/banner/png/bannerB07.jpg"
         }        
       },
-      "link": "/Momce_7-14_god-576.html",
+      "link": "/Momce_7-16_god-576.html",
       "slot": "banner-B"
     },
     {
@@ -40,15 +40,15 @@
       "subtitle": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerC06m.webp",
-          "desktop": "/assets/banner/webp/bannerC06.webp"
+          "mobile":  "/assets/banner/webp/bannerC07m.webp",
+          "desktop": "/assets/banner/webp/bannerC07.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerC06m.jpg",
-          "desktop": "/assets/banner/png/bannerC06.jpg"
+          "mobile":  "/assets/banner/png/bannerC07m.jpg",
+          "desktop": "/assets/banner/png/bannerC07.jpg"
         }        
       },
-      "link": "/Bebe_0-18_meseci-3.html",
+      "link": "/Bebe_-_0-24_meseci-3.html",
       "slot": "banner-C"
     },
     {
@@ -56,12 +56,12 @@
       "subtitle": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerD06m.webp",
-          "desktop": "/assets/banner/webp/bannerD06.webp"
+          "mobile":  "/assets/banner/webp/bannerD07m.webp",
+          "desktop": "/assets/banner/webp/bannerD07.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerD06m.jpg",
-          "desktop": "/assets/banner/png/bannerD06.jpg"
+          "mobile":  "/assets/banner/png/bannerD07m.jpg",
+          "desktop": "/assets/banner/png/bannerD07.jpg"
         }        
       },
       "link": "/Oprema-8.html",
@@ -74,30 +74,30 @@
       "subtitle": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerE06m.webp",
-          "desktop": "/assets/banner/webp/bannerE06.webp"
+          "mobile":  "/assets/banner/webp/bannerE07m.webp",
+          "desktop": "/assets/banner/webp/bannerE07.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerE06m.jpg",
-          "desktop": "/assets/banner/png/bannerE06.jpg"
+          "mobile":  "/assets/banner/png/bannerE07m.jpg",
+          "desktop": "/assets/banner/png/bannerE07.jpg"
         }        
       },
-      "link": "/HIGHLANDS-683.html"
+      "link": "/IN_THE_JUNGLE-855.html"
     },
     {
       "title": "",
       "subtitle": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerF06m.webp",
-          "desktop": "/assets/banner/webp/bannerF06.webp"
+          "mobile":  "/assets/banner/webp/bannerF07m.webp",
+          "desktop": "/assets/banner/webp/bannerF07.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerF06m.jpg",
-          "desktop": "/assets/banner/png/bannerF06.jpg"
+          "mobile":  "/assets/banner/png/bannerF07m.jpg",
+          "desktop": "/assets/banner/png/bannerF07.jpg"
         }        
       },
-      "link": "/HELLO_LONDON-680.html"
+      "link": "/ENJOY_THE_SUN-848.html"
     }
   ],
   "menuAsideBanners": [
