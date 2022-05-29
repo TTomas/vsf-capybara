@@ -2,56 +2,56 @@
   "instagramImages": [
     {
       "image": {
-        "webp": "/assets/ig/webp/igtt01-06.webp",
-        "fallback": "/assets/ig/jpg/igtt01-06.jpg"
+        "webp": "/assets/ig/webp/igtt01-07.webp",
+        "fallback": "/assets/ig/jpg/igtt01-07.jpg"
       }
     },
     {
       "image": {
-        "webp": "/assets/ig/webp/igtt02-06.webp",
-        "fallback": "/assets/ig/jpg/igtt02-06.jpg"
+        "webp": "/assets/ig/webp/igtt02-07.webp",
+        "fallback": "/assets/ig/jpg/igtt02-07.jpg"
       }
     },
     {
       "image": {
-        "webp": "/assets/ig/webp/igtt03-06.webp",
-        "fallback": "/assets/ig/jpg/igtt03-06.jpg"
+        "webp": "/assets/ig/webp/igtt03-07.webp",
+        "fallback": "/assets/ig/jpg/igtt03-07.jpg"
       }
     },
     {
       "image": {
-        "webp": "/assets/ig/webp/igtt04-06.webp",
-        "fallback": "/assets/ig/jpg/igtt04-06.jpg"
+        "webp": "/assets/ig/webp/igtt04-07.webp",
+        "fallback": "/assets/ig/jpg/igtt04-07.jpg"
       }
     },
     {
       "image": {
-        "webp": "/assets/ig/webp/igtt05-06.webp",
-        "fallback": "/assets/ig/jpg/igtt05-06.jpg"
+        "webp": "/assets/ig/webp/igtt05-07.webp",
+        "fallback": "/assets/ig/jpg/igtt05-07.jpg"
       }
     },
     {
       "image": {
-        "webp": "/assets/ig/webp/igtt06-06.webp",
-        "fallback": "/assets/ig/jpg/igtt06-06.jpg"
+        "webp": "/assets/ig/webp/igtt06-07.webp",
+        "fallback": "/assets/ig/jpg/igtt06-07.jpg"
       }
     },
     {
       "image": {
-        "webp": "/assets/ig/webp/igtt07-06.webp",
-        "fallback": "/assets/ig/jpg/igtt07-06.jpg"
+        "webp": "/assets/ig/webp/igtt07-07.webp",
+        "fallback": "/assets/ig/jpg/igtt07-07.jpg"
       }
     },
     {
       "image": {
-        "webp": "/assets/ig/webp/igtt08-06.webp",
-        "fallback": "/assets/ig/jpg/igtt08-06.jpg"
+        "webp": "/assets/ig/webp/igtt08-07.webp",
+        "fallback": "/assets/ig/jpg/igtt08-07.jpg"
       }
     },
     {
       "image": {
-        "webp": "/assets/ig/webp/igtt09-06.webp",
-        "fallback": "/assets/ig/jpg/igtt09-06.jpg"
+        "webp": "/assets/ig/webp/igtt09-07.webp",
+        "fallback": "/assets/ig/jpg/igtt09-07.jpg"
       }
     }
   ]

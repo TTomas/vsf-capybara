@@ -133,11 +133,21 @@
             <div class="sf-radio__label shipping__label">
               <div>{{ method.method_title }}</div>
               <div class="shipping__label-price">
-                {{ method.amount | price }}
+                <!--  {{ method.amount | price }} -->
               </div>
             </div>
           </template>
         </SfRadio>
+        <div>
+          <ul>
+            <li>
+              <p>Цена на Испорака 150-200 денари</p>
+            </li>
+            <li>
+              <p>Цената за достава на производи над 3.000,00 денари е бесплатна.</p>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="form__action">
         <SfButton
