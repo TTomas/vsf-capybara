@@ -6,11 +6,11 @@
       "description": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerA08m.webp",
+          "mobile":  "/assets/banner/webp/bannerA082m.webp",
           "desktop": "/assets/banner/webp/bannerA08.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerA08m.jpg",
+          "mobile":  "/assets/banner/png/bannerA082m.jpg",
           "desktop": "/assets/banner/png/bannerA08.jpg"
         }        
       },
@@ -24,11 +24,11 @@
       "buttonText": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerB08m.webp",
+          "mobile":  "/assets/banner/webp/bannerB082m.webp",
           "desktop": "/assets/banner/webp/bannerB08.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerB08m.jpg",
+          "mobile":  "/assets/banner/png/bannerB082m.jpg",
           "desktop": "/assets/banner/png/bannerB08.jpg"
         }        
       },
@@ -40,11 +40,11 @@
       "subtitle": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerC08m.webp",
+          "mobile":  "/assets/banner/webp/bannerC082m.webp",
           "desktop": "/assets/banner/webp/bannerC08.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerC08m.jpg",
+          "mobile":  "/assets/banner/png/bannerC082m.jpg",
           "desktop": "/assets/banner/png/bannerC08.jpg"
         }        
       },
@@ -56,11 +56,11 @@
       "subtitle": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerD08m.webp",
+          "mobile":  "/assets/banner/webp/bannerD082m.webp",
           "desktop": "/assets/banner/webp/bannerD08.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerD08m.jpg",
+          "mobile":  "/assets/banner/png/bannerD082m.jpg",
           "desktop": "/assets/banner/png/bannerD08.jpg"
         }        
       },
