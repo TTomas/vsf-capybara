@@ -6,12 +6,12 @@
       "description": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerA082m.webp",
-          "desktop": "/assets/banner/webp/bannerA08.webp"
+          "mobile":  "/assets/banner/webp/bannerA09m.webp",
+          "desktop": "/assets/banner/webp/bannerA09.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerA082m.jpg",
-          "desktop": "/assets/banner/png/bannerA08.jpg"
+          "mobile":  "/assets/banner/png/bannerA09m.jpg",
+          "desktop": "/assets/banner/png/bannerA09.jpg"
         }        
       },
       "link": "/Momce_2-7_god-516.html",
@@ -24,12 +24,12 @@
       "buttonText": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerB082m.webp",
-          "desktop": "/assets/banner/webp/bannerB08.webp"
+          "mobile":  "/assets/banner/webp/bannerB09m.webp",
+          "desktop": "/assets/banner/webp/bannerB09.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerB082m.jpg",
-          "desktop": "/assets/banner/png/bannerB08.jpg"
+          "mobile":  "/assets/banner/png/bannerB09m.jpg",
+          "desktop": "/assets/banner/png/bannerB09.jpg"
         }        
       },
       "link": "/Devojce_8-16_god-519.html",
@@ -74,30 +74,30 @@
       "subtitle": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerE08m.webp",
-          "desktop": "/assets/banner/webp/bannerE08.webp"
+          "mobile":  "/assets/banner/webp/bannerE09m.webp",
+          "desktop": "/assets/banner/webp/bannerE09.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerE08m.jpg",
-          "desktop": "/assets/banner/png/bannerE08.jpg"
+          "mobile":  "/assets/banner/png/bannerE09m.jpg",
+          "desktop": "/assets/banner/png/bannerE09.jpg"
         }        
       },
-      "link": "/GALAXY_FRIENDS-847.html"
+      "link": "/TINY_CRITTERS-672.html"
     },
     {
       "title": "",
       "subtitle": "",
       "image": {
         "webp": {
-          "mobile":  "/assets/banner/webp/bannerF08m.webp",
-          "desktop": "/assets/banner/webp/bannerF08.webp"
+          "mobile":  "/assets/banner/webp/bannerF09m.webp",
+          "desktop": "/assets/banner/webp/bannerF09.webp"
         },
         "fallback": {
-          "mobile":  "/assets/banner/png/bannerF08m.jpg",
-          "desktop": "/assets/banner/png/bannerF08.jpg"
+          "mobile":  "/assets/banner/png/bannerF09m.jpg",
+          "desktop": "/assets/banner/png/bannerF09.jpg"
         }        
       },
-      "link": "/NATURAL_GROWN-886.html"
+      "link": "/JUICY-1049.html"
     }
   ],
   "menuAsideBanners": [
